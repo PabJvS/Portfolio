@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    /* font-size: 62.5%; */
+    overflow-x: hidden;
+    /* scroll-padding-top: 9rem; */
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .9rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: rgb(212, 210, 210);
+    
+}
+
+html::-webkit-scrollbar-thumb{
+    background: rgb(91, 91, 92);
+    border-radius: 5rem;
+}
+
