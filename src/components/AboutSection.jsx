@@ -15,7 +15,7 @@ export const AboutSection = () => {
 			</p>
 
 			<ScrollIntoView selector="#tech">
-				<div className="mx-auto pt-28 md:pt-9 p-12 ">
+				<div className="mx-auto pt-20 md:pt-9 p-12 ">
 					<FaChevronDown className="mx-auto text-3xl animate-bounce text-blue-500 cursor-pointer" />
 				</div>
 			</ScrollIntoView>
