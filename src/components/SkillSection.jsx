@@ -9,9 +9,9 @@ import { Arrow } from "./Arrow";
 
 export const SkillSection = () => {
 	return (
-		<div className="max-w-4xl mx-auto py-12" id="tech">
+		<div className="max-w-4xl mx-auto sm:py-12 pt-28 pb-12" id="tech">
 			<p className="text-3xl text-center text-black pt-4 font-bold sm:text-4xl ">
-				Tech I Use
+				Habilidades
 			</p>
 			<div className="flex flex-wrap justify-center pt-7 sm:pt-2">
 				<div className="flex flex-col w-40 p-10 sm:m-6 m-2 overflow-hidden bg-white shadow-2xl rounded-2xl sm:w-52">
@@ -55,15 +55,8 @@ export const SkillSection = () => {
 						React
 					</p>
 				</div>
-
-				{/* <div className=' flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-2xl sm:w-52'>
-                  <SiFigma color='#2196f3' className='mx-auto text-4xl' />
-                  <p className='mt-6 sm:text-2xl font-semibold text-center'>
-                    Figma
-                  </p>
-              </div> */}
 			</div>
-			<Arrow />
+			{/* <Arrow /> */}
 		</div>
 	);
 };

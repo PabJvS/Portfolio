@@ -12,10 +12,14 @@ import { FaChevronDown } from "react-icons/fa";
 import ScrollIntoView from "react-scroll-into-view";
 
 export const PortfolioSection = () => {
+	// ;
 	return (
-		<div className="max-w-4xl mx-auto py-12" id="portfolio">
-			<p className="text-3xl text-center text-black pt-4 font-bold sm:text-4xl">
-				Portfolio
+		<div className="max-w-4xl mx-auto py-12 " id="post-1">
+			<p
+				className="text-3xl text-center text-black pt-4 font-bold sm:text-4xl"
+				id="portfolio"
+			>
+				Proyectos
 			</p>
 			<div className="flex flex-wrap justify-center pt-2">
 				<div className="flex flex-col  p-6 m-6 overflow-hidden bg-white shadow-2xl rounded-2xl sm:w-60">
