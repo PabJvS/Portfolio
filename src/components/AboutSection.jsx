@@ -9,9 +9,8 @@ export const AboutSection = () => {
 				Hola bienvenido a mi mundo! 👋
 			</p>
 			<p className=" text-base sm:text-xl text-center text-gray-600 dark:text-zinc-100 mt-4 leading-relaxed">
-				Soy Pablo, Ingeniero en Sistemas y desarrollador me gusta trabajar
-				con React Js, disfruto diseñar y aplicar mis conocimientos en
-				Front-end.
+				Soy Pablo, Ingeniero en Sistemas y desarrollador web me gusta trabajar con
+				React Js, disfruto mucho aplicar mis conocimientos en Front-end.
 			</p>
 
 			<ScrollIntoView selector="#tech">

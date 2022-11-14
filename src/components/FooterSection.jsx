@@ -12,7 +12,7 @@ export const FooterSection = () => {
 				className="animate-bounce flex justify-center text-4xl"
 				smooth
 				component={<GrFormUp />}
-				top="1800"
+				top="1600"
 			/>
 
 			<div className="flex justify-center mt-4">
